@@ -1,0 +1,195 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.imgChica {
+  width: 15%;
+  height: 7%;
+  display: block; }
+
+.coso_imgChiquita {
+  width: 200px;
+  height: 300px;
+  display: block; }
+
+.imgLogo {
+  width: 130px;
+  height: 130px;
+  display: block; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+.contenedor {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+img {
+  display: block;
+  margin: auto; }
+
+.Centrar {
+  text-align: center; }
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #c79c1c;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: 'Abhaya Libre', serif;
+  text-align: center; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+p {
+  color: #723d96;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 10px; }
+
+p.alinear {
+  text-align: left; }
+
+h2 {
+  color: #c79c1c;
+  font-size: 20px;
+  font-size: 20px;
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 500;
+  text-align: center;
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
+h3 {
+  color: blueviolet;
+  font-size: 20px;
+  font-family: 'Abhaya Libre', serif;
+  font-weight: 500; }
+
+ul li a {
+  text-decoration: none;
+  color: #020003; }
+
+.navbar {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%); }
+
+.Coso {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 100px; }
+
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: #f2c6fcb4; }
+
+.containerFooter {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px; }
+
+.containerFooter a {
+  text-decoration: none;
+  color: #723d96; }
+
+@media only screen and (min-width: 768px) {
+  .contenedor {
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+.nombres {
+  text-align: center; }
+
+.containerCrema {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 60px; }
+
+.crema {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  gap: 20px; }
+
+.crema a {
+  text-decoration: none;
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 20px; }
+
+.corporal {
+  padding-top: 50px; }
+
+.shampoo {
+  padding-top: 50px;
+  padding-left: 200px; }
+
+.w-100 {
+  width: 70%; }
+
+#contenedorContacto {
+  position: relative;
+  display: flex;
+  height: 400px;
+  width: 400px;
+  font-weight: 300;
+  line-height: 1.5; }
+
+#formulario {
+  position: static;
+  text-align: right;
+  margin-top: 40px; }
+
+#texto {
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold; }
+
+#imgContacto {
+  position: absolute;
+  align-items: flex-start;
+  left: 0;
+  top: 350px;
+  bottom: 10px;
+  width: 40%; }
+
+.error {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 100px; }
+
+.tituloError {
+  font-size: 200px;
+  padding-top: 100px; }
