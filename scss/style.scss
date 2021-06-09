@@ -81,8 +81,7 @@ p.alinear {
 
 h2 {
     color:#c79c1c;
-    font-size: 20px;
-    font-size:20px;
+    font-size: 30px;
     font-family: 'Abhaya Libre', serif;
     font-weight:500;
     text-align:center;
@@ -132,7 +131,7 @@ ul li a {
 footer {
     position:absolute;
     width:100%;
-    background-color: #f2c6fcb4;
+    background-color: #f0d8f5;
 }
 
 .containerFooter {
@@ -162,6 +161,7 @@ footer {
         align-items: center;
         justify-content: center;
         padding-top: 50px;
+        padding-bottom: 50px;
         gap: 60px;
     }
     
@@ -178,7 +178,7 @@ footer {
     
     .crema a {
         text-decoration: none;
-        background-color: yellow;
+        background-color: #f0d8f5;
         padding: 10px;
         border-radius: 20px;
     }
@@ -209,12 +209,16 @@ footer {
 
 #formulario {
     position:static;
-    text-align: right;
+    text-align: center;
     margin-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-family: 'Abhaya Libre', serif;
+    
 }
 
 #texto{
-    text-align: left;
+    text-align: center;
     font-size: 24px;
     font-weight: bold;
 }
@@ -222,10 +226,10 @@ footer {
 #imgContacto{
     position: absolute;
     align-items: flex-start;
-    left: 0;
-    top: 350px;
+    left: 10px;
+    top: 550px;
     bottom: 10px;
-    width:40%;
+    width:20%;
 }
 
 .error {
