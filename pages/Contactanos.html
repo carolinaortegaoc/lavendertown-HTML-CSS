@@ -67,11 +67,10 @@
               </header>
 
                 <h2>Contactanos!</h2>
-    <section id="formulario"><!--bloque 1-->
-        <p id="texto">Nos importa tu opinion!
-          Por favor, cualquier duda o consulta podes dejarla en nuestro formulario :)</p>
-        <br>
-        <h3>Dejanos tus datos</h3>
+    <section><!--bloque 1-->
+        <p>Nos importa tu opinion! Por favor, cualquier duda o consulta podes dejarla en nuestro formulario :)</p>
+
+
         <form action="gracias_enviar.php" method="get" 3nctype="application/x-www-urlencoded">
             <label for="nombre">Nombre</label>
             <input type="text" placeholder="Tu nombre" id="nombre"><br>
@@ -79,34 +78,29 @@
             <input type="text" placeholder="Tu apellido" id="Apellido"><br>
             <label for="Email">Email</label>
             <input type="text" placeholder="Tu mail" id="Mail"><br>
-            <br>
-            <br>
-            <label for="newsletter">¿Desea recibir el newsletter?</label>
-            <input type="checkbox" name="aceptar" value="si"><br><br>
-            <textarea>
-
-
-
-                    </textarea>
-            <br><br>
-            <input type="submit"><br>
-            <input type="reset"><br>
+            <textarea name="mensaje" placeholder="escriba aqui su mensaje"></textarea>
+            <input type="button" value="Enviar" id="boton">
+            <input type="reset">
         </form>
     </section>
-    <img src="../imagenes/banner4.jpg" id="imgContacto"><!--bloque 2-->
-    </main>
 
+    <footer class="footerCentrado">
+      <img src="../imagenes/lavender town (3).png" alt="logo" width="100">
 
+      <p class="footerTexto">el skincare que tu piel necesita.</p>
 
-    <footer>
-        <img src="../imagenes/lavender town (3).png" class="imgChica" />
-		<div class="containerFooter"><!--bloque 3-->
-			<a href="faq.html">FAQ</a>
-			<a href="sucursales.html">Sucursales</a>
-			<a href="pagos.html">Medios de Pago</a>
-		</div>
-        <p>Todos los derechos reservados</p>
+      <p class="footerLinks">
+        <a href="../index.html">Inicio</a>
+        ·
+        <a href="faq.html">Faq</a>
+        ·
+        <a href="Redes.html">Seguinos en nuestras redes!</a>
+      </p>
+
+      <p class="footerCopyright">lavender town &copy; 2021</p>
+
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
