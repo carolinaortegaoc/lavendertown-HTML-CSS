@@ -1,0 +1,38 @@
+/*titulos*/
+
+h1 {
+    color: $colorTitulos;
+    font-size: 50px;
+    font-weight:500;
+    font-family: 'Abhaya Libre', serif;
+    text-align: center;
+}
+
+h2 {
+    color:$colorTitulos;
+    font-size: 30px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight:500;
+    text-align:center;
+    padding-top: 30px;
+}
+
+h3 {
+    color:$colorTres;
+    font-size:20px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight:500;
+}
+
+p {
+    display:block;
+    color:$colorSeis;
+    font-weight:300;
+    line-height:1.5;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  p.alinear {
+    text-align: left;
+}

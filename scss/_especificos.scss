@@ -1,0 +1,211 @@
+/*productos*/
+
+.containerCrema {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 30px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.crema {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+}
+
+
+.crema a {
+    text-decoration: none;
+    background-color: $colorCinco;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.corporal {
+    padding-top: 50px;
+}
+
+
+.shampoo {
+    padding-top: 50px;
+    padding-left: 200px;
+
+}
+
+/*pagina novedades*/
+.gallery-container{
+    display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px,1fr));
+  grid-auto-rows: minmax(120px,auto);
+  gap:100px;
+  padding:40px;
+  grid-auto-flow: dense;
+  }
+  
+  .gallery__img{
+  display:flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  }
+  
+  .gallery__img:hover{
+  filter:opacity(0.9);
+  transform: scale(1.04);
+  }
+
+  .gallery__item{
+    text-decoration: none;
+    background-color: $colorCinco;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .nombres {
+    text-align: center;
+        text-align: center;
+        font-size: medium;
+        padding-top: 10px;
+}
+
+
+
+  /*pagina contactanos*/
+form {
+    width:450px;
+    margin:auto;
+    background-color:$colorCinco;
+    padding:10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        align-content: stretch;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+input, textarea {
+    width:100%;
+    margin-bottom: 20px;
+    padding:7px;
+    box-sizing: border-box;
+    font-size:17px;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+
+#boton{
+    color:#000000;
+    padding:20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media (max-width:480px) {
+    form {
+        width:100%;
+    }
+}
+
+
+
+/*pagina error*/
+
+.error {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 100px;
+}
+
+.tituloError{
+    font-size: 200px;
+    padding-top: 100px;
+}
+
+
+
+
+/*pagina nosotros*/
+
+.contenedor-section {
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fw-300{
+    font-weight: 300;
+    padding-top: 100px;
+}
+
+
+.iconos__nosotros{
+    display:flex;
+    justify-content: space-between;
+}
+
+.icono{
+    flex-basis:calc(33.3%-1rem);
+    text-align: center;
+}
+
+
+.centrado {
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.imagen__nosotros{
+    margin: 2rem;
+}
+
+.nosotros {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    transition: transform 0.3s ease-in-out;
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    float: left;
+    margin: 15px;
+}
+
+.textoNosotros {
+    text-align: left;
+    margin: 10px;
+}
+
+

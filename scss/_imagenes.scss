@@ -1,0 +1,32 @@
+
+.imgChica {
+    width: 15%;
+    height: 7%;
+    display:block;
+}
+
+.coso_imgChiquita {
+    width: 200px;
+    height: 300px;
+    display: block;
+    background-color: $colorCinco;
+    padding: 10px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out
+}
+
+.coso_imgChiquita:hover{
+    filter:opacity(0.9);
+    transform: scale(1.04);
+    }
+
+.imgLogo {
+    width: 130px;
+    height: 130px;
+    display: block;
+}
+
+img {
+    display:block;
+    margin:auto;
+}
