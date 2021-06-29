@@ -69,6 +69,19 @@
   font-size: medium;
   padding-top: 10px; }
 
+/*pagina FAQ*/
+.gallery__imgFooter {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 15px;
+  flex-wrap: wrap; }
+
 /*pagina contactanos*/
 form {
   width: 450px;
@@ -201,6 +214,12 @@ img {
 .imgFooter {
   width: 200px;
   height: 200px; }
+
+.box-img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover; }
 
 /*titulos*/
 h1 {
@@ -341,11 +360,6 @@ body {
   line-height: 80px;
   text-align: center; }
 
-.box-img {
-  border-radius: 50%;
-  width: 80px;
-  height: 80px; }
-
 .section-1-box h3 {
   margin-top: 0;
   padding: 0 0 10px 0; }
@@ -372,14 +386,7 @@ body {
 .footer-top h3 {
   padding-bottom: 10px; }
 
-.footer-contact i {
-  padding-right: 10px;
-  font-size: 18px; }
-
 .footer-contact p a {
-  border-bottom: 1px; }
-
-.footer-contact p a:hover, .footer-contact p a:focus {
   border-bottom: 1px; }
 
 .footer-links a {
@@ -398,7 +405,3 @@ body {
 .footer-social a:hover, .footer-social a:focus {
   color: #723d96;
   border: 0; }
-
-.footer-social i {
-  font-size: 24px;
-  vertical-align: middle; }

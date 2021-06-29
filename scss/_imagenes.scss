@@ -36,3 +36,10 @@ img {
     width: 200px;
     height: 200px;
 }
+
+.box-img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
