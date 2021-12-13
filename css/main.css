@@ -62,6 +62,13 @@
   text-align: center;
   margin-bottom: 80px; }
 
+.gallery__borton {
+    text-decoration: none;
+    background-color: #f0d8f5;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
 .nombres {
   text-align: center;
   text-align: center;
